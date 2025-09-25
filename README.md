@@ -1,7 +1,7 @@
 
 # Laboratorio de Pentesting Metodológico sobre Windows 7 SP1
 
-![Windows 7 Logo](https://i.imgur.com/gQYyC8p.png)
+![Windows 7 Logo](./images/win7-logo.png)
 
 Este repositorio documenta el proceso completo de un pentest realizado a una máquina virtual Windows 7 Professional SP1 (64-bit), desde el reconocimiento inicial hasta la obtención de privilegios de `SYSTEM`.
 
@@ -121,7 +121,7 @@ msf exploit(...) > exploit
 ```
 **Resultado:** Se obtuvo una sesión de Meterpreter exitosa, confirmando el acceso completo al sistema.
 
-![Meterpreter Session](https://i.imgur.com/9nFk2dZ.png)
+![Meterpreter Session](./images/meterpreter-session.png)
 
 ---
 
