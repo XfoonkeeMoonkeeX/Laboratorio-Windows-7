@@ -7,7 +7,26 @@ Este repositorio documenta el proceso completo de un pentest realizado a una má
 
 **Disclaimer:** *Todas las actividades documentadas aquí se realizaron en un entorno de laboratorio controlado y aislado, con máquinas de mi propiedad. Este proyecto tiene fines exclusivamente educativos para estudiar y comprender las fases de un ciberataque y las vulnerabilidades de sistemas sin parches. No intentes replicar estas acciones en sistemas que no te pertenezcan o para los cuales no tengas permiso explícito.*
 
----
+## Entorno del Laboratorio
+
+Este pentest fue ejecutado utilizando las siguientes máquinas virtuales en la misma red local.
+
+### Máquina Víctima
+*   **Sistema Operativo:** Windows 7 Professional SP1 (64-bit)
+*   **Dirección IP:** `192.168.1.13`
+*   **Configuraciones Clave:** Firewall y Actualizaciones Automáticas desactivadas.
+
+### Máquina de Ataque
+La metodología descrita en este informe es agnóstica al sistema operativo del atacante. Las pruebas se realizaron y pueden ser reproducidas desde cualquiera de las siguientes configuraciones:
+
+*   **Configuración 1: Arch Linux**
+    *   **Distribución Base:** Arch Linux
+    *   **Repositorios Adicionales:** BlackArch
+    *   **Shell:** Zsh con Oh My Zsh
+
+*   **Configuración 2: Kali Linux**
+    *   **Distribución:** Kali Linux [2025.3]
+    *   **Entorno de Escritorio:** [XFCE]
 
 ## Índice de Fases
 
